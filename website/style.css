@@ -1,0 +1,170 @@
+body{
+    background: #fffff8;
+    font-family: 'Lato', sans-serif;
+    background: #eee;
+    color: #333;
+    margin: 0;
+}
+
+#app{
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    height:100vh;
+    justify-content: center;
+    font-size: 18px; padding-bottom: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.holder{
+
+}
+
+.entry{
+    background: rgba(59, 74, 107, 0.05);
+    border-bottom: #444 1px solid;
+    padding:30px;
+}
+
+#entryHolder{
+
+}
+
+#date{
+    padding-top: 20px;
+    color:green;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px; padding-bottom: 5px;
+}
+
+#date::before {
+    content: "Date: ";
+    color: #333333;
+    font-size: 18px; padding-bottom: 5px;
+}
+
+#temp{
+ color:green;
+ font-family: 'Lato', sans-serif;
+ font-size: 18px; padding-bottom: 5px;
+}
+
+#temp::before {
+    content: "Temperature: ";
+    color: #333333;
+    font-size: 18px; padding-bottom: 5px;
+}
+
+
+#content{
+    color:green;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px; padding-bottom: 5px;
+}
+
+#content::before {
+    content: "Feeling: ";
+    color: #333333;
+    font-size: 18px; padding-bottom: 5px;
+}
+
+
+.headline {
+ background-image: url('https://images.unsplash.com/photo-1521147923319-b7fbf0b31c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1778&q=80');
+ background-position: center; 
+ background-repeat: no-repeat;
+ background-size: cover;
+ width:800px;
+ text-align: center;
+ padding: 50px 0 0 0;
+ color:white;
+ font-size: 48px;
+ margin-bottom: 50px;
+ font-family: 'Lato', sans-serif;
+}
+
+.title{
+  font-size: 24px;
+  width: 600px;
+  border-bottom: 1px #333333 solid;
+  padding-bottom: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+label i{
+  font-size:14px;
+  color:#bbb;
+}
+
+input{
+    display:block;
+    width: 600px;
+    background:#fff;
+    color: #333333;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 10px;
+    padding:20px;
+
+}
+
+button{
+    width: 140px;
+    height: 60px;
+    background: green;
+    color: #fdfdfa;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    outline:none;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    background:#fff;
+    color: #333333;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    width: 620px;
+    height: 80px;
+    padding:10px;
+    margin-bottom: 50px;
+    display: block;
+    border-radius: 10px;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #bbb; 
+    font-family: 'Lato', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #bbb; 
+    font-family: 'Lato', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #bbb; 
+    font-family: 'Lato', sans-serif;
+} 
