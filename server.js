@@ -30,7 +30,7 @@ const server = app.listen(port, ()=>{console.log(`running on localhost: ${port}`
 
 // GET route
 app.get('/data', (req, res) => {
-    console.log('GET request received');
+    console.log('GET route');
     res.send(projectData);
 });
 
@@ -39,6 +39,6 @@ app.post('/', (req, res) => {
     projectData.date = req.body.date;
     projectData.temperature = req.body.main.temp;
     projectData.feelings = req.body.feelings;
-    console.log('POST request received');
+    console.log('POST route');
     res.end();
 });
