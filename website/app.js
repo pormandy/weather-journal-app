@@ -1,7 +1,7 @@
 /* Global Variables */
 // US is default country. Parameter is zip code,country code
 const url = "http://api.openweathermap.org/data/2.5/weather?units=imperial&zip=";
-const apiKey = "&APPID=d6bbb6da24f0e6d2203675681ff4867c";
+const apiKey = "&APPID=79da1569ea7257d02c83606a70c649bd";
 
 // Create a new date instance dynamically with JS
 let d = new Date();
